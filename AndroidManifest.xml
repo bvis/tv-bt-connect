@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.bvis.btconnect" android:versionCode="1" android:versionName="1.0">
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <application android:label="BT Connect">
+        <receiver android:name=".ConnectReceiver" android:exported="true" />
+    </application>
+</manifest>
