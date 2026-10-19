@@ -19,7 +19,9 @@ sdkmanager "platforms;android-29" "build-tools;34.0.0"
 ./build.sh
 ```
 
-`ANDROID_HOME` defaults to `~/Library/Android/sdk`. The first build creates a debug signing key (`debug.keystore`) that isn't committed. You can also grab a prebuilt APK from the releases page.
+`ANDROID_HOME` defaults to `~/Library/Android/sdk`. The first build creates a debug signing key (`debug.keystore`) that isn't committed.
+
+You can also grab a prebuilt APK from the releases page. GitHub Actions builds every push and attaches a signed APK to the release when a `v*` tag is pushed.
 
 ## Install
 
